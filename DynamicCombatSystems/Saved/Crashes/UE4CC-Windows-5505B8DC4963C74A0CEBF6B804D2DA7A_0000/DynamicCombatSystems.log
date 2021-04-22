@@ -1,0 +1,1376 @@
+﻿Log file open, 09/07/20 22:59:29
+LogInit: Display: Running engine for game: DynamicCombatSystems
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.221723
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz, GPU: Intel(R) UHD Graphics
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.09.08-02.59.30:321][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.09.08-02.59.30:321][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.09.08-02.59.30:321][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Saved/Config/Windows/Engine.ini]
+[2020.09.08-02.59.30:321][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.09.08-02.59.30:321][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Saved/Config/Windows/Engine.ini]
+[2020.09.08-02.59.30:321][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Saved/Config/Windows/Engine.ini]
+[2020.09.08-02.59.30:321][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.09.08-02.59.30:321][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.09.08-02.59.30:321][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.09.08-02.59.30:321][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.09.08-02.59.30:321][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.09.08-02.59.30:321][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.09.08-02.59.30:321][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.09.08-02.59.30:321][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.09.08-02.59.30:321][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.09.08-02.59.30:321][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.09.08-02.59.30:321][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.09.08-02.59.30:321][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.09.08-02.59.30:321][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.09.08-02.59.30:321][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.09.08-02.59.30:321][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Saved/Config/Windows/Engine.ini]
+[2020.09.08-02.59.30:321][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.09.08-02.59.30:321][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.09.08-02.59.30:321][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.09.08-02.59.30:321][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.09.08-02.59.30:321][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.09.08-02.59.30:321][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.09.08-02.59.30:321][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.09.08-02.59.30:321][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.09.08-02.59.30:322][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.09.08-02.59.30:322][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.09.08-02.59.30:322][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.09.08-02.59.30:322][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.09.08-02.59.30:322][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.09.08-02.59.30:322][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Saved/Config/Windows/Engine.ini]
+[2020.09.08-02.59.30:322][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Saved/Config/Windows/Engine.ini]
+[2020.09.08-02.59.30:325][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-02.59.30:325][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.08-02.59.30:325][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.08-02.59.30:325][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-02.59.30:325][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.08-02.59.30:325][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-02.59.30:325][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.08-02.59.30:325][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.08-02.59.30:325][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.08-02.59.30:325][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.08-02.59.30:325][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.08-02.59.30:325][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.08-02.59.30:325][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.08-02.59.30:325][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.08-02.59.30:325][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.08-02.59.30:325][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.08-02.59.30:325][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.08-02.59.30:325][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.08-02.59.30:325][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.08-02.59.30:325][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.08-02.59.30:325][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.08-02.59.30:325][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.08-02.59.30:325][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.08-02.59.30:325][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.08-02.59.30:325][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-02.59.30:325][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.08-02.59.30:325][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.08-02.59.30:325][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.08-02.59.30:325][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.08-02.59.30:325][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.08-02.59.30:325][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.08-02.59.30:326][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.09.08-02.59.30:327][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.08-02.59.30:327][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.08-02.59.30:327][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.08-02.59.30:327][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.08-02.59.30:327][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.08-02.59.30:327][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.08-02.59.30:327][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.08-02.59.30:327][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.08-02.59.30:327][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.08-02.59.30:327][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.08-02.59.30:327][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.08-02.59.30:327][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.08-02.59.30:327][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.08-02.59.30:327][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.08-02.59.30:327][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-02.59.30:327][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.08-02.59.30:327][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.08-02.59.30:327][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-02.59.30:327][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.08-02.59.30:327][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.08-02.59.30:327][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.08-02.59.30:327][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.09.08-02.59.30:327][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.09.08-02.59.30:327][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.09.08-02.59.30:327][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.09.08-02.59.30:327][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.08-02.59.30:327][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.09.08-02.59.30:327][  0]LogHAL: Display: Platform has ~ 32 GB [34105659392 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.09.08-02.59.30:327][  0]LogInit: Going up to parent DeviceProfile []
+[2020.09.08-02.59.30:327][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-02.59.30:327][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.08-02.59.30:327][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.08-02.59.30:327][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-02.59.30:327][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.08-02.59.30:327][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-02.59.30:327][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.08-02.59.30:327][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.08-02.59.30:328][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Saved/Config/Windows/Scalability.ini]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.09.08-02.59.30:329][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.09.08-02.59.30:329][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.09.08-02.59.30:331][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.09.08-02.59.30:331][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.09.08-02.59.30:331][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Saved/Config/Windows/Engine.ini]
+[2020.09.08-02.59.30:331][  0]LogInit: Computer: ALUTZEMPL19
+[2020.09.08-02.59.30:331][  0]LogInit: User: alutz
+[2020.09.08-02.59.30:331][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.09.08-02.59.30:331][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.09.08-02.59.30:331][  0]LogMemory: Memory total: Physical=31.8GB (32GB approx)
+[2020.09.08-02.59.30:331][  0]LogMemory: Platform Memory Stats for Windows
+[2020.09.08-02.59.30:331][  0]LogMemory: Process Physical Memory: 114.22 MB used, 114.23 MB peak
+[2020.09.08-02.59.30:331][  0]LogMemory: Process Virtual Memory: 97.23 MB used, 97.23 MB peak
+[2020.09.08-02.59.30:331][  0]LogMemory: Physical Memory: 8314.30 MB used,  24211.39 MB free, 32525.69 MB total
+[2020.09.08-02.59.30:331][  0]LogMemory: Virtual Memory: 5164.88 MB used,  134212560.00 MB free, 134217728.00 MB total
+[2020.09.08-02.59.30:645][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.09.08-02.59.30:702][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.09.08-02.59.30:707][  0]LogInit: Using OS detected language (en-US).
+[2020.09.08-02.59.30:707][  0]LogInit: Using OS detected locale (en-US).
+[2020.09.08-02.59.30:717][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.09.08-02.59.31:030][  0]LogInit: Setting process to per monitor DPI aware
+[2020.09.08-02.59.31:075][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.09.08-02.59.31:075][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.09.08-02.59.31:351][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.08-02.59.31:352][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.09.08-02.59.31:352][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.09.08-02.59.31:352][  0]LogD3D11RHI: D3D11 adapters:
+[2020.09.08-02.59.31:501][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070' (Feature Level 11_0)
+[2020.09.08-02.59.31:502][  0]LogD3D11RHI:       8031/0/16262 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.09.08-02.59.31:534][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics' (Feature Level 11_0)
+[2020.09.08-02.59.31:534][  0]LogD3D11RHI:       128/0/16262 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.09.08-02.59.31:540][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.09.08-02.59.31:540][  0]LogD3D11RHI:       0/0/16262 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.09.08-02.59.31:540][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.09.08-02.59.31:576][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.09.08-02.59.31:576][  0]LogD3D11RHI:     GPU DeviceId: 0x1f14 (for the marketing name, search the web for "GPU Device Id")
+[2020.09.08-02.59.31:576][  0]LogWindows: EnumDisplayDevices:
+[2020.09.08-02.59.31:576][  0]LogWindows:    0. 'Intel(R) UHD Graphics' (P:1 D:1)
+[2020.09.08-02.59.31:577][  0]LogWindows:    1. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2020.09.08-02.59.31:577][  0]LogWindows:    2. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2020.09.08-02.59.31:578][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2020.09.08-02.59.31:578][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2020.09.08-02.59.31:578][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2020.09.08-02.59.31:579][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2020.09.08-02.59.31:579][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.09.08-02.59.31:579][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070
+[2020.09.08-02.59.31:579][  0]LogD3D11RHI:   Driver Version: 452.06 (internal:27.21.14.5206, unified:452.06)
+[2020.09.08-02.59.31:579][  0]LogD3D11RHI:      Driver Date: 8-12-2020
+[2020.09.08-02.59.31:579][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
+[2020.09.08-02.59.31:676][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.09.08-02.59.31:680][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.09.08-02.59.31:680][  0]LogD3D11RHI: Async texture creation enabled
+[2020.09.08-02.59.31:680][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.09.08-02.59.31:706][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.09.08-02.59.32:257][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.09.08-02.59.32:301][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.09.08-02.59.32:301][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.09.08-02.59.32:301][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.09.08-02.59.32:301][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.09.08-02.59.32:301][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.09.08-02.59.32:301][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.09.08-02.59.32:301][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.09.08-02.59.32:301][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.09.08-02.59.32:301][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.09.08-02.59.32:301][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.09.08-02.59.32:357][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.09.08-02.59.32:357][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.09.08-02.59.32:379][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.09.08-02.59.32:398][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.09.08-02.59.32:422][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.09.08-02.59.32:440][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.09.08-02.59.32:461][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.09.08-02.59.32:481][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.09.08-02.59.32:499][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.09.08-02.59.32:563][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.09.08-02.59.32:563][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.09.08-02.59.32:596][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.09.08-02.59.32:596][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.09.08-02.59.32:614][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.09.08-02.59.32:633][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.09.08-02.59.32:651][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.09.08-02.59.32:670][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.09.08-02.59.32:670][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.09.08-02.59.32:686][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.09.08-02.59.32:793][  0]LogShaderCompilers: Guid format shader working directory is -54 characters bigger than the processId version (D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Intermediate/Shaders/WorkingDirectory/17904/).
+[2020.09.08-02.59.32:793][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/alutz/AppData/Local/Temp/UnrealShaderWorkingDir/88536A8549F1B78A7250C9AD7861059F/'.
+[2020.09.08-02.59.32:794][  0]LogXGEController: Cleaning working directory: C:/Users/alutz/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.09.08-02.59.32:794][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.09.08-02.59.32:794][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.09.08-02.59.32:794][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.09.08-02.59.34:259][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.09.08-02.59.34:333][  0]LogDerivedDataCache: Loaded boot cache 0.07s 75MB C:/Users/alutz/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.09.08-02.59.34:333][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/alutz/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.09.08-02.59.34:333][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.09.08-02.59.34:333][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.09.08-02.59.34:333][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.08-02.59.34:333][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.09.08-02.59.34:351][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.09.08-02.59.34:351][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.08-02.59.34:351][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.09.08-02.59.34:353][  0]LogDerivedDataCache: Using Local data cache path C:/Users/alutz/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.09.08-02.59.34:353][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.09.08-02.59.34:353][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.09.08-02.59.34:445][  0]LogSlate: Using FreeType 2.10.0
+[2020.09.08-02.59.34:445][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.09.08-02.59.34:485][  0]LogAssetRegistry: FAssetRegistry took 0.0040 seconds to start up
+[2020.09.08-02.59.34:923][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.08-02.59.35:156][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.09.08-02.59.35:156][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.09.08-02.59.35:156][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.09.08-02.59.35:156][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.09.08-02.59.35:156][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.09.08-02.59.35:182][  0]LogNetVersion: DynamicCombatSystems 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1963429971)
+[2020.09.08-02.59.36:083][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001EB6021C340), frame # 0
+[2020.09.08-02.59.36:083][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EB60147880), frame # 0
+[2020.09.08-02.59.36:087][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EB60166400), frame # 0
+[2020.09.08-02.59.36:197][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.097223 seconds
+[2020.09.08-02.59.36:207][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.09.08-02.59.36:207][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.09.08-02.59.36:207][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.09.08-02.59.36:918][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.09.08-02.59.36:987][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.09.08-02.59.37:135][  0]SourceControl: Source control is disabled
+[2020.09.08-02.59.37:135][  0]SourceControl: Source control is disabled
+[2020.09.08-02.59.37:142][  0]SourceControl: Source control is disabled
+[2020.09.08-02.59.37:147][  0]SourceControl: Source control is disabled
+[2020.09.08-02.59.37:160][  0]SourceControl: Source control is disabled
+[2020.09.08-02.59.37:627][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.09.08-02.59.37:666][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.08-02.59.37:666][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.08-02.59.37:768][  0]LogOcInput: OculusInput pre-init called
+[2020.09.08-02.59.37:790][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.09.08-02.59.37:790][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.09.08-02.59.37:916][  0]LogEngine: Initializing Engine...
+[2020.09.08-02.59.37:918][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.08-02.59.37:918][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.09.08-02.59.37:920][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.09.08-02.59.38:168][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.09.08-02.59.38:180][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.09.08-02.59.38:180][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EB629DD600), frame # 0
+[2020.09.08-02.59.38:181][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EB62A656C0), frame # 0
+[2020.09.08-02.59.38:219][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.08-02.59.38:220][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.08-02.59.38:220][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.08-02.59.38:220][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.08-02.59.38:220][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.08-02.59.38:220][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.08-02.59.38:220][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.08-02.59.38:220][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.08-02.59.38:220][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.08-02.59.38:220][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.08-02.59.38:408][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.08-02.59.38:408][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.09.08-02.59.38:408][  0]LogAudioMixer: Display: 2: FrontCenter
+[2020.09.08-02.59.38:408][  0]LogAudioMixer: Display: 3: LowFrequency
+[2020.09.08-02.59.38:408][  0]LogAudioMixer: Display: 4: BackLeft
+[2020.09.08-02.59.38:408][  0]LogAudioMixer: Display: 5: BackRight
+[2020.09.08-02.59.38:408][  0]LogAudioMixer: Display: 6: SideLeft
+[2020.09.08-02.59.38:408][  0]LogAudioMixer: Display: 7: SideRight
+[2020.09.08-02.59.39:791][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.09.08-02.59.39:792][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.08-02.59.39:796][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.08-02.59.39:796][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.08-02.59.39:797][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.08-02.59.39:799][  0]LogInit: FAudioDevice initialized.
+[2020.09.08-02.59.39:799][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.09.08-02.59.39:904][  0]LogDerivedDataCache: Saved boot cache 0.10s 75MB C:/Users/alutz/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.09.08-02.59.39:914][  0]LogInit: Texture streaming: Enabled
+[2020.09.08-02.59.39:941][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.09.08-02.59.39:941][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.09.08-02.59.39:944][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.09.08-02.59.39:982][  0]LogInit: Transaction tracking system initialized
+[2020.09.08-02.59.40:018][  0]BlueprintLog: New page: Editor Load
+[2020.09.08-02.59.40:137][  0]LocalizationService: Localization service is disabled
+[2020.09.08-02.59.40:464][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.09.08-02.59.40:464][  0]LogCook: Display: Mobile HDR setting 1
+[2020.09.08-02.59.40:702][  0]LogFileCache: Scanning file cache for directory 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/' took 0.02s
+[2020.09.08-02.59.41:125][  0]SourceControl: Source control is disabled
+[2020.09.08-02.59.41:125][  0]LogUnrealEdMisc: Loading editor; pre map load, took 13.161
+[2020.09.08-02.59.41:125][  0]LightingResults: New page: Lighting Build
+[2020.09.08-02.59.41:127][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.09.08-02.59.41:127][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.08-02.59.41:127][  0]MapCheck: New page: Map Check
+[2020.09.08-02.59.41:127][  0]LightingResults: New page: Lighting Build
+[2020.09.08-02.59.41:150][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EB629DD600), frame # 0
+[2020.09.08-02.59.41:150][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EB62A656C0), frame # 0
+[2020.09.08-02.59.41:152][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2020.09.08-02.59.47:324][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_SummonSpot.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:324][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_SummonSpot.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:324][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_SummonSpot.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:324][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_SummonSpot.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:324][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_SummonSpot.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:324][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_SummonSpot.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:324][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_SummonSpot.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:324][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_SummonSpot.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:324][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_SummonSpot.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:324][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_SummonSpot.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:324][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_SummonMinion.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:324][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_SummonMinion.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:324][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_SummonMinion.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:324][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_SummonMinion.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:324][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_SummonMinion.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:324][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_SummonMinion.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:324][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_SummonMinion.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:325][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_SummonMinion.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:325][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_SummonMinion.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:325][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_SummonMinion.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:325][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_SummonMinion.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:325][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_SummonMinion.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:325][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_SummonMinion.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:325][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_SummonMinion.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:325][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_SummonMinion.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:325][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_SummonMinion.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:369][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_StrafeLeft.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:369][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_StrafeLeft.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:369][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_StrafeLeft.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:369][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_StrafeLeft.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:369][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_StrafeLeft.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:369][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_StrafeLeft.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:369][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_StrafeLeft.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:369][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_StrafeLeft.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:369][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_StrafeLeft.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:369][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_StrafeLeft.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:369][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:369][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:369][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:369][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:369][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:369][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:369][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:369][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:369][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:369][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:369][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:369][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:369][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:369][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:369][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:370][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:370][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:370][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:370][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:370][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:376][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_StrafeRight.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:376][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_StrafeRight.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:376][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_StrafeRight.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:377][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_StrafeRight.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:377][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_StrafeRight.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:377][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_StrafeRight.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:377][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_StrafeRight.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:377][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_StrafeRight.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:377][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_StrafeRight.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:377][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_StrafeRight.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:377][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:377][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:377][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:377][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:377][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:377][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:377][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:377][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:377][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:377][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:377][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:377][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:377][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:377][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:377][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:377][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:377][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:377][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:377][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:377][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/BehaviorTreeNodes/S_Strafe.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:419][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_TeleportSpot.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:419][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_TeleportSpot.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:419][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_TeleportSpot.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:419][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_TeleportSpot.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:419][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_TeleportSpot.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:419][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_TeleportSpot.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:419][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_TeleportSpot.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:419][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_TeleportSpot.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:419][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_TeleportSpot.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:419][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_TeleportSpot.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:419][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_Teleport.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:419][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_Teleport.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:419][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_Teleport.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:419][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_Teleport.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:419][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_Teleport.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:419][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_Teleport.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:419][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_Teleport.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:419][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_Teleport.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:419][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_Teleport.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:419][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_Teleport.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:419][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_Teleport.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:419][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_Teleport.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:419][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_Teleport.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:419][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_Teleport.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:419][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_Teleport.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:419][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_Teleport.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:419][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_Teleport.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:419][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_Teleport.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:419][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_Teleport.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:419][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_Teleport.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:419][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_Teleport.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:419][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_Teleport.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:419][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_Teleport.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:419][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/Abilities/AI/Ability_AI_Teleport.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:636][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_SafePoint.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:637][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_SafePoint.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:637][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_SafePoint.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:637][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_SafePoint.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:637][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_SafePoint.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:637][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_SafePoint.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:637][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_SafePoint.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:637][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_SafePoint.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:637][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_SafePoint.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:637][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/EQS/EQS_SafePoint.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:637][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/Archer/BT_ArcherAI.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:637][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/Archer/BT_ArcherAI.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:637][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/Archer/BT_ArcherAI.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:637][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/Archer/BT_ArcherAI.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:637][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/Archer/BT_ArcherAI.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:637][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/Archer/BT_ArcherAI.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:637][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/Archer/BT_ArcherAI.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:637][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/Archer/BT_ArcherAI.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:637][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/Archer/BT_ArcherAI.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:637][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/Archer/BT_ArcherAI.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:637][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/Archer/BT_ArcherAI.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:637][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/Archer/BT_ArcherAI.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:637][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/Archer/BT_ArcherAI.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:637][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/Archer/BT_ArcherAI.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:637][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/Archer/BT_ArcherAI.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:637][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/Archer/BT_ArcherAI.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:637][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/Archer/BT_ArcherAI.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:637][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/Archer/BT_ArcherAI.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:637][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/Archer/BT_ArcherAI.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.47:637][  0]LogLinker: Warning: While loading 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/DynamicCombatSystem/Blueprints/AI/Archer/BT_ArcherAI.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.09.08-02.59.48:747][  0]LogTexture: Display: Building textures: T_IsEquipped (BGRA8, 512X512)
+[2020.09.08-02.59.48:747][  0]LogTexture: Display: Building textures: T_SpellIndicator (AutoDXT, 500X500)
+[2020.09.08-02.59.48:747][  0]LogTexture: Display: Building textures: T_MeleeWeapon (BGRA8, 512X512)
+[2020.09.08-02.59.48:747][  0]LogTexture: Display: Building textures: T_Hidden (BGRA8, 476X476)
+[2020.09.08-02.59.48:747][  0]LogTexture: Display: Building textures: T_Tool (BGRA8, 512X512)
+[2020.09.08-02.59.48:747][  0]LogTexture: Display: Building textures: T_HealthPotion (BGRA8, 272X265)
+[2020.09.08-02.59.48:747][  0]LogTexture: Display: Building textures: T_SteelBreastplate (BGRA8, 231X225)
+[2020.09.08-02.59.48:747][  0]LogTexture: Display: Building textures: T_Shield (BGRA8, 512X512)
+[2020.09.08-02.59.48:747][  0]LogTexture: Display: Building textures: T_Spell (BGRA8, 512X512)
+[2020.09.08-02.59.48:747][  0]LogTexture: Display: Building textures: T_Frame (BGRA8, 482X482)
+[2020.09.08-02.59.48:747][  0]LogTexture: Display: Building textures: T_RangeWeapon (BGRA8, 512X512)
+[2020.09.08-02.59.48:747][  0]LogTexture: Display: Building textures: T_AbilityCrosshair (BGRA8, 40X40)
+[2020.09.08-02.59.48:747][  0]LogTexture: Display: Building textures: T_Quiver (BGRA8, 512X512)
+[2020.09.08-02.59.48:748][  0]LogTexture: Display: Building textures: T_Quiver_D (AutoDXT, 1024X1024)
+[2020.09.08-02.59.48:748][  0]LogTexture: Display: Building textures: T_Wood01_D (AutoDXT, 1024X1024)
+[2020.09.08-02.59.48:748][  0]LogTexture: Display: Building textures: T_Pore_Specular (AutoDXT, 1024X1024)
+[2020.09.08-02.59.48:748][  0]LogTexture: Display: Building textures: T_Pore_Normals2 (BC5, 1024X1024)
+[2020.09.08-02.59.48:748][  0]LogTexture: Display: Building textures: T_Sparrow_Head_Arrow_Mask2 (AutoDXT, 4096X4096)
+[2020.09.08-02.59.48:748][  0]LogTexture: Display: Building textures: T_Sparrow_Head_Arrow_Mask (AutoDXT, 4096X4096)
+[2020.09.08-02.59.48:748][  0]LogTexture: Display: Building textures: T_Whool01_D (AutoDXT, 2048X2048)
+[2020.09.08-02.59.48:748][  0]LogMaterial: Display: Missing cached shader map for material M_SpellIndicator, compiling. 
+[2020.09.08-02.59.50:962][  0]LogTexture: Display: Building textures: T_Rust01_N (BC5, 2048X2048)
+[2020.09.08-02.59.50:962][  0]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 34
+[2020.09.08-02.59.50:962][  0]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 30
+[2020.09.08-02.59.50:962][  0]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 26
+[2020.09.08-02.59.50:962][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 22
+[2020.09.08-02.59.50:962][  0]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 18
+[2020.09.08-02.59.50:962][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 14
+[2020.09.08-02.59.50:962][  0]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 10
+[2020.09.08-02.59.50:962][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 6
+[2020.09.08-02.59.50:962][  0]LogShaderCompilers: Display: Worker (9/9): shaders left to compile 2
+[2020.09.08-02.59.50:962][  0]LogTexture: Display: Building textures: T_Whool01_N (BC5, 2048X2048)
+[2020.09.08-02.59.50:962][  0]LogTexture: Display: Building textures: T_Sparrow_Head_Arrow_RGB (AutoDXT, 4096X4096)
+[2020.09.08-02.59.50:962][  0]LogTexture: Display: Building textures: T_Sparrow_Head_Arrow_N (BC5, 4096X4096)
+[2020.09.08-02.59.50:962][  0]LogTexture: Display: Building textures: T_Rubber_2_N (BC5, 2048X2048)
+[2020.09.08-02.59.50:962][  0]LogTexture: Display: Building textures: T_RoughMetal01_N (BC5, 2048X2048)
+[2020.09.08-02.59.50:962][  0]LogTexture: Display: Building textures: T_Blank_N (BC5, 128X128)
+[2020.09.08-02.59.50:962][  0]LogMaterial: Display: Missing cached shader map for material M_Quiver, compiling. 
+[2020.09.08-02.59.51:026][  0]LogTexture: Display: Building textures: T_TestML_Mask (AutoDXT, 512X512)
+[2020.09.08-02.59.51:026][  0]LogTexture: Display: Building textures: T_Dissolve (AutoDXT, 512X512)
+[2020.09.08-02.59.51:026][  0]LogStaticMesh: Building static mesh SM_Quiver...
+[2020.09.08-02.59.51:048][  0]LogStaticMesh: Built static mesh [0.02s] /Game/DynamicCombatSystem/Meshes/SM_Quiver.SM_Quiver
+[2020.09.08-03.00.17:096][  0]LogTexture: Display: Building textures: T_ML_Gold_Metal01 (AutoDXT, 2048X2048)
+[2020.09.08-03.00.17:096][  0]LogTexture: Display: Building textures: T_SteelHelmet (BGRA8, 232X225)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: T_SteelGloves (BGRA8, 232X225)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: T_Close (BGRA8, 512X512)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: T_SteelSword (BGRA8, 257X250)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: T_FireNoiseTile_02 (AutoDXT, 600X600)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: T_Pattern_M (AutoDXT, 2048X2048)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: T_Top (BGRA8, 512X512)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: T_Ring (BGRA8, 512X512)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: T_Necklace (BGRA8, 512X512)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: T_Material (BGRA8, 512X512)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: T_Legs (BGRA8, 512X512)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: T_Head (BGRA8, 512X512)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: T_Hands (BGRA8, 512X512)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: T_Feet (BGRA8, 512X512)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: T_AllItems (BGRA8, 512X512)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: T_Fireball (BGRA8, 270X263)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: T_SteelPants (BGRA8, 231X225)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: T_starFlare_01_M (AutoDXT, 256X256)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: T_FireBlastTile_D (AutoDXT, 256X256)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: T_Fire_Shock_01_D (AutoDXT, 1024X1024)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: T_Black_32_D (AutoDXT, 32X32)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: T_Fire_subUV_6X6_M (AutoDXT, 1024X1024)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: T_DrainHealth (BGRA8, 270X263)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: T_ChargeTrail_02 (AutoDXT, 512X512)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: T_ChargeTrail (AutoDXT, 512X512)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: T_HealthBuff (BGRA8, 270X263)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: T_DamageBuff (BGRA8, 270X263)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: T_SoftFallOff_M (AutoDXT, 256X256)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: T_SummonSword (BGRA8, 270X263)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: T_SummonedSword (BGRA8, 270X263)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: T_SummonBow (BGRA8, 270X263)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: T_SummonedBow (BGRA8, 270X263)
+[2020.09.08-03.00.17:097][  0]LogTexture: Display: Building textures: T_SummonedArrow (BGRA8, 270X263)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_GlowNoise_01 (AutoDXT, 256X256)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_FireBall_LerpMask (AutoDXT, 1024X1024)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_BlastWave (AutoDXT, 1024X1024)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_Vertical_Glow (AutoDXT, 1024X1024)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_starFlare_02 (AutoDXT, 256X256)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_ElvenArrow (BGRA8, 270X263)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_ExplosiveArrow (BGRA8, 257X249)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_Phase_Poster_Tendrils_v2_Seamless (G8, 4096X4096)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_Sparrow_Head_Arrow_Alpha (AutoDXT, 4096X4096)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_Feather_D (AutoDXT, 1024X1024)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_Sparrow_Poster_Tendrils_v2_Seamless (G8, 4096X4096)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_Black_Linear (AutoDXT, 32X32)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_SplineThickness_Mask (AutoDXT, 256X256)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_SmokeTile_Strip_03_TILE (AutoDXT, 2048X256)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_SmokeTile_Strip_03_Soft_N_TILE (BC5, 2048X256)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_SmokeTile_Strip_03_Height_TILE (AutoDXT, 2048X256)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_SoftSmoke_04 (AutoDXT, 2048X2048)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_FireBall_07D_E (AutoDXT, 2048X2048)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_FireBall_07D_Depth (AutoDXT, 2048X2048)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_FireBall_07D_N (BC5, 2048X2048)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_WispyNoise_8X8 (AutoDXT, 4096X4096)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_2ndInfectedMapNormal (BC5, 2048X2048)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_2ndInfectedMapLinear (AutoDXT, 2048X2048)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_Concrete_ChunkSubUV_N_TGA (BC5, 512X512)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_Concrete_ChunkSubUV_D (AutoDXT, 512X512)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_Debris_Blur_A (AutoDXT, 512X512)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_Debris_Blur (BC5, 512X512)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_Debris (BC5, 512X512)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_TilingClouds_01 (AutoDXT, 1024X1024)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_FluidSmoke_04_N (BC5, 2048X2048)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_FluidSmoke_04_Depth (AutoDXT, 2048X2048)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_Spark_Soft (AutoDXT, 512X512)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_FluidSmoke_04 (AutoDXT, 2048X2048)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_ElvenBow (BGRA8, 270X263)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_UnrealEngineDecal (DXT1, 2048X2048)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_Dark_Metal_D_2 (AutoDXT, 2048X2048)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_Sparrow_Head_Arrow_Spec (AutoDXT, 4096X4096)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_Dark_Leather_N (BC5, 2048X2048)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_Gem_Translucent_01_RGBA (AutoDXT, 2048X2048)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_Gem_Translucent_01_N (BC5, 2048X2048)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_Kwang_Weapon_MASK02 (AutoDXT, 4096X4096)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_Kwang_Weapon_MASK01 (AutoDXT, 4096X4096)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_GreatSword (BGRA8, 272X265)
+[2020.09.08-03.00.17:098][  0]LogTexture: Display: Building textures: T_UnpleasentGrime_D (AutoDXT, 2048X2048)
+[2020.09.08-03.00.17:099][  0]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 39
+[2020.09.08-03.00.17:099][  0]LogTexture: Display: Building textures: T_Kwang_Weapon_RGB (AutoDXT, 4096X4096)
+[2020.09.08-03.00.17:099][  0]LogTexture: Display: Building textures: T_SteelShield (BGRA8, 256X249)
+[2020.09.08-03.00.17:099][  0]LogTexture: Display: Building textures: T_Kwang_Weapon_normals_DEMO (BC5, 4096X4096)
+[2020.09.08-03.00.17:099][  0]LogTexture: Display: Building textures: T_Greystone_SwordShieldFurHair_RGB (AutoDXT, 4096X4096)
+[2020.09.08-03.00.17:099][  0]LogTexture: Display: Building textures: T_Greystone_SwordShieldFurHair_normals (BC5, 4096X4096)
+[2020.09.08-03.00.17:099][  0]LogTexture: Display: Building textures: T_Greystone_Shield_Mask01 (AutoDXT, 4096X4096)
+[2020.09.08-03.00.17:099][  0]LogTexture: Display: Building textures: T_Gray_Flat_Black (AutoDXT, 2048X2048)
+[2020.09.08-03.00.17:099][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 34
+[2020.09.08-03.00.17:099][  0]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 30
+[2020.09.08-03.00.17:099][  0]LogTexture: Display: Building textures: T_leather_02 (AutoDXT, 4096X4096)
+[2020.09.08-03.00.17:099][  0]LogTexture: Display: Building textures: T_Rock_Imposter_12x12_D (AutoDXT, 2048X2048)
+[2020.09.08-03.00.17:099][  0]LogTexture: Display: Building textures: T_Rock_Imposter_12x12_N (BC5, 2048X2048)
+[2020.09.08-03.00.17:099][  0]LogTexture: Display: Building textures: T_PerlinElectric_Packed_Rchannel_N (BC5, 2048X2048)
+[2020.09.08-03.00.17:099][  0]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 26
+[2020.09.08-03.00.17:099][  0]LogShaderCompilers: Display: Worker (9/9): shaders left to compile 23
+[2020.09.08-03.00.17:099][  0]LogTexture: Display: Building textures: T_Dirt_02A_N (BC5, 4096X4096)
+[2020.09.08-03.00.17:099][  0]LogTexture: Display: Building textures: T_Dirt_02A_A (AutoDXT, 4096X4096)
+[2020.09.08-03.00.17:099][  0]LogTexture: Display: Building textures: T_Flare_Vert_Packed (AutoDXT, 1024X1024)
+[2020.09.08-03.00.17:099][  0]LogTexture: Display: Building textures: T_Dirt_01_A (AutoDXT, 4096X4096)
+[2020.09.08-03.00.17:099][  0]LogTexture: Display: Building textures: T_Dirt_01_N (BC5, 4096X4096)
+[2020.09.08-03.00.17:099][  0]LogTexture: Display: Building textures: T_Flare_Spikeball (AutoDXT, 1024X1024)
+[2020.09.08-03.00.17:099][  0]LogTexture: Display: Building textures: T_FluidSmoke_03_N (BC5, 2048X2048)
+[2020.09.08-03.00.17:099][  0]LogTexture: Display: Building textures: T_FluidSmoke_03_D (AutoDXT, 2048X2048)
+[2020.09.08-03.00.17:099][  0]LogTexture: Display: Building textures: T_Sparrow_Head_Arrow_Color (AutoDXT, 4096X4096)
+[2020.09.08-03.00.29:080][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 20
+[2020.09.08-03.00.29:080][  0]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 17
+[2020.09.08-03.00.29:080][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 14
+[2020.09.08-03.00.29:080][  0]LogShaderCompilers: Display: Worker (9/9): shaders left to compile 12
+[2020.09.08-03.00.29:080][  0]LogTexture: Display: Building textures: T_ShieldLightrays (AutoDXT, 1024X512)
+[2020.09.08-03.00.29:081][  0]LogTexture: Display: Building textures: T_noise_flamy_Tile (AutoDXT, 2048X2048)
+[2020.09.08-03.00.29:081][  0]LogTexture: Display: Building textures: T_SmokeRend_N (BC5, 512X512)
+[2020.09.08-03.00.29:081][  0]LogTexture: Display: Building textures: T_Plasma_FengMao_Seamless (AutoDXT, 1024X1024)
+[2020.09.08-03.00.29:081][  0]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 10
+[2020.09.08-03.00.29:081][  0]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 8
+[2020.09.08-03.00.29:081][  0]LogTexture: Display: Building textures: T_FengMao_WeaponMASK (AutoDXT, 4096X4096)
+[2020.09.08-03.00.29:081][  0]LogTexture: Display: Building textures: T_FengMao_Weapon_RGB (AutoDXT, 4096X4096)
+[2020.09.08-03.00.29:081][  0]LogTexture: Display: Building textures: T_FengMao_Weapon_normals (BC5, 4096X4096)
+[2020.09.08-03.00.29:081][  0]LogTexture: Display: Building textures: T_AtmosphericCloudNoise01 (AutoDXT, 2048X2048)
+[2020.09.08-03.00.29:081][  0]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 7
+[2020.09.08-03.00.29:081][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 6
+[2020.09.08-03.00.29:081][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 5
+[2020.09.08-03.00.29:081][  0]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2020.09.08-03.00.29:081][  0]LogTexture: Display: Building textures: T_dust_burst_01 (AutoDXT, 2048X4096)
+[2020.09.08-03.00.29:081][  0]LogTexture: Display: Building textures: T_TilingNoise03 (AutoDXT, 2048X2048)
+[2020.09.08-03.00.29:081][  0]LogShaderCompilers: Display: Worker (9/9): shaders left to compile 3
+[2020.09.08-03.00.29:081][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2
+[2020.09.08-03.00.29:081][  0]LogTexture: Display: Building textures: T_Pebbles_Stones_N (BC5, 2048X2048)
+[2020.09.08-03.00.29:081][  0]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1
+[2020.09.08-03.00.29:081][  0]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.09.08-03.00.29:081][  0]LogTexture: Display: Building textures: T_Crunchy_1_D (AutoDXT, 2048X2048)
+[2020.09.08-03.00.29:081][  0]LogTexture: Display: Building textures: T_GoldenRing (BGRA8, 270X263)
+[2020.09.08-03.00.29:081][  0]LogTexture: Display: Building textures: T_MagicWand (BGRA8, 270X263)
+[2020.09.08-03.00.29:081][  0]LogTexture: Display: Building textures: T_Wand (BGRA8, 512X512)
+[2020.09.08-03.00.29:637][  0]LogTexture: Display: Building textures: T_Yin_Armor_RGBAO (AutoDXT, 4096X4096)
+[2020.09.08-03.00.29:637][  0]LogTexture: Display: Building textures: T_Rust01 (AutoDXT, 2048X2048)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: T_Yin_Armor_MASK (AutoDXT, 4096X4096)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: T_Yin_Armor_N (BC5, 4096X4096)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: T_ScratchMask (AutoDXT, 1024X1024)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: T_Noise_Rough_Dark_Big (AutoDXT, 1024X1024)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: T_Metal_SandCast_Med_N (BC5, 2048X2048)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: T_Teleport (BGRA8, 270X263)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: T_Trap (BGRA8, 270X263)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: T_Vortex (BGRA8, 270X263)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: T_FireRing (AutoDXT, 512X512)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: T_cracks_03 (AutoDXT, 1024X1024)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: T_cracks_01_N (BC5, 1024X1024)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: T_IceChunks (AutoDXT, 128X128)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: T_LightingBeam (BGRA8, 270X263)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: T_InstantHeal (BGRA8, 270X263)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: T_Inferno (BGRA8, 270X263)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: T_Healing (BGRA8, 270X263)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: T_ViewfinderIcon_01 (BGRA8, 403X403)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: T_PatrolPath (AutoDXT, 256X256)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: T_Crosshair (BGRA8, 67X25)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: T_GoldenNecklace (BGRA8, 260X254)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 1024X1024)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 512X512)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 64X64)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 1024X1024)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 512X512)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 64X64)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X1024)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 1024X1024)
+[2020.09.08-03.00.43:503][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 32X32)
+[2020.09.08-03.00.43:504][  0]LogTexture: Display: Building textures: T_SteelBoots (BGRA8, 231X225)
+[2020.09.08-03.00.43:504][  0]LogTexture: Display: Building textures: T_EyeIrisBaseColor_Example_2 (AutoDXT, 512X512)
+[2020.09.08-03.00.43:504][  0]LogTexture: Display: Building textures: T_Eye_Wet_Normal (BC5, 1024X1024)
+[2020.09.08-03.00.43:504][  0]LogTexture: Display: Building textures: T_EYE_NORMALS (BC5, 512X512)
+[2020.09.08-03.00.43:504][  0]LogTexture: Display: Building textures: T_DecalMask_Radial03 (G8, 512X512)
+[2020.09.08-03.00.43:504][  0]LogTexture: Display: Building textures: T_EyeMidPlaneDisplacement_Example (RGBA16F, 1024X1024)
+[2020.09.08-03.00.43:504][  0]LogTexture: Display: Building textures: T_Muriel_Corona_D (AutoDXT, 2048X2048)
+[2020.09.08-03.00.43:504][  0]LogTexture: Display: Building textures: T_RoomTiles_N (BC5, 2048X2048)
+[2020.09.08-03.00.43:504][  0]LogTexture: Display: Building textures: T_RoomTiles_M (DXT1, 2048X2048)
+[2020.09.08-03.00.43:504][  0]LogTexture: Display: Building textures: T_Buff_Black_Creature_Detail_N (BC5, 512X512)
+[2020.09.08-03.00.43:504][  0]LogTexture: Display: Building textures: T_SoilMud2_N (BC5, 4096X4096)
+[2020.09.08-03.00.43:504][  0]LogTexture: Display: Building textures: T_Buff_Black_Creature_D (AutoDXT, 4096X4096)
+[2020.09.08-03.00.43:504][  0]LogTexture: Display: Building textures: T_Buff_Black_Creature_Mud_M (AutoDXT, 4096X4096)
+[2020.09.08-03.00.43:504][  0]LogTexture: Display: Building textures: T_SkinMud (AutoDXT, 4096X4096)
+[2020.09.08-03.00.43:504][  0]LogTexture: Display: Building textures: T_Buff_Black_Creature_N (BC5, 4096X4096)
+[2020.09.08-03.00.43:504][  0]LogTexture: Display: Building textures: T_Buff_Black_Creature_Masks2 (AutoDXT, 2048X2048)
+[2020.09.08-03.00.44:098][  0]LogTexture: Display: Building textures: T_Rubber_2 (AutoDXT, 2048X2048)
+[2020.09.08-03.00.58:145][  0]LogTexture: Display: Building textures: T_Buff_Black_Creature_Masks (AutoDXT, 4096X4096)
+[2020.09.08-03.00.58:145][  0]LogTexture: Display: Building textures: T_Blue_Metal02 (AutoDXT, 2048X2048)
+[2020.09.08-03.00.58:145][  0]LogTexture: Display: Building textures: T_Buff_Black_Eye (AutoDXT, 512X512)
+[2020.09.08-03.00.58:145][  0]LogTexture: Display: Building textures: T_Swirly_Noise (AutoDXT, 1024X1024)
+[2020.09.08-03.00.58:145][  0]LogTexture: Display: Building textures: T_Sphere_EYE_NORMALS (BC5, 1024X1024)
+[2020.09.08-03.00.58:145][  0]LogTexture: Display: Building textures: T_EyeScleraBaseColor_Example_2 (AutoDXT, 2048X2048)
+[2020.09.08-03.00.58:145][  0]LogTexture: Display: Building textures: T_AtmosphericCloudNoise01_N (BC5, 2048X2048)
+[2020.09.08-03.00.58:145][  0]LogTexture: Display: Building textures: T_AtmosphericCloudNoise03 (BGRA8, 2048X2048)
+[2020.09.08-03.00.58:603][  0]LogTexture: Display: Building textures: T_LightMetal02 (AutoDXT, 2048X2048)
+[2020.09.08-03.01.11:567][  0]LogMaterial: Display: Missing cached shader map for material M_ElvenArrow, compiling. 
+[2020.09.08-03.01.11:787][  0]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 195
+[2020.09.08-03.01.11:787][  0]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 185
+[2020.09.08-03.01.11:787][  0]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 175
+[2020.09.08-03.01.11:787][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 165
+[2020.09.08-03.01.11:787][  0]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 155
+[2020.09.08-03.01.11:787][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 145
+[2020.09.08-03.01.11:787][  0]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 135
+[2020.09.08-03.01.11:787][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 125
+[2020.09.08-03.01.11:787][  0]LogShaderCompilers: Display: Worker (9/9): shaders left to compile 115
+[2020.09.08-03.01.11:787][  0]LogStaticMesh: Building static mesh SM_ElvenArrow...
+[2020.09.08-03.01.11:831][  0]LogStaticMesh: Built static mesh [0.04s] /Game/DynamicCombatSystem/Meshes/SM_ElvenArrow.SM_ElvenArrow
+[2020.09.08-03.01.11:837][  0]LogMaterial: Display: Missing cached shader map for material M_Armor, compiling. 
+[2020.09.08-03.01.11:885][  0]LogStaticMesh: Building static mesh SM_SteelHelmet...
+[2020.09.08-03.01.11:899][  0]LogStaticMesh: Built static mesh [0.01s] /Game/DynamicCombatSystem/Meshes/SM_SteelHelmet.SM_SteelHelmet
+[2020.09.08-03.01.11:910][  0]LogMaterial: Display: Missing cached shader map for material M_DissolveEffect, compiling. 
+[2020.09.08-03.01.12:014][  0]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2020.09.08-03.01.12:107][  0]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2020.09.08-03.01.12:161][  0]LogMaterial: Display: Missing cached shader map for material M_DemoWallPattern, compiling. 
+[2020.09.08-03.01.12:188][  0]LogMaterial: Display: Missing cached shader map for material M_DemoWallPattern, compiling. 
+[2020.09.08-03.01.12:217][  0]LogMaterial: Display: Missing cached shader map for material M_DemoWall, compiling. 
+[2020.09.08-03.01.12:309][  0]LogMaterial: Display: Missing cached shader map for material DefaultTextMaterialTranslucentUnlit, compiling. 
+[2020.09.08-03.01.12:460][  0]LogStaticMesh: Building static mesh SM_Base...
+[2020.09.08-03.01.12:654][  0]LogStaticMesh: Built static mesh [0.19s] /Game/DynamicCombatSystem/DemoRoom/Meshes/SM_Base.SM_Base
+[2020.09.08-03.01.12:715][  0]LogStaticMesh: Building static mesh SM_NamePlate...
+[2020.09.08-03.01.12:719][  0]LogStaticMesh: Built static mesh [0.00s] /Game/DynamicCombatSystem/DemoRoom/Meshes/SM_NamePlate.SM_NamePlate
+[2020.09.08-03.01.12:809][  0]LogStaticMesh: Building static mesh SM_Base2...
+[2020.09.08-03.01.12:881][  0]LogStaticMesh: Built static mesh [0.07s] /Game/DynamicCombatSystem/DemoRoom/Meshes/SM_Base2.SM_Base2
+[2020.09.08-03.01.13:209][  0]LogStaticMesh: Building static mesh SM_BaseRoom...
+[2020.09.08-03.01.13:456][  0]LogStaticMesh: Built static mesh [0.25s] /Game/DynamicCombatSystem/DemoRoom/Meshes/SM_BaseRoom.SM_BaseRoom
+[2020.09.08-03.01.13:539][  0]LogStaticMesh: Building static mesh SM_Base_FlatWall...
+[2020.09.08-03.01.13:544][  0]LogStaticMesh: Built static mesh [0.01s] /Game/DynamicCombatSystem/DemoRoom/Meshes/SM_Base_FlatWall.SM_Base_FlatWall
+[2020.09.08-03.01.13:555][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave WAV_HitArrow...
+[2020.09.08-03.01.13:555][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_HitArrow.WAV_HitArrow will be modified from 40 to 40.
+[2020.09.08-03.01.13:604][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 59648 while cooking SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_HitArrow.WAV_HitArrow.
+[2020.09.08-03.01.13:604][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave WAV_BlockShieldMetal02...
+[2020.09.08-03.01.13:605][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_BlockShieldMetal02.WAV_BlockShieldMetal02 will be modified from 40 to 40.
+[2020.09.08-03.01.13:648][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 77356 while cooking SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_BlockShieldMetal02.WAV_BlockShieldMetal02.
+[2020.09.08-03.01.13:648][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave WAV_BlockShieldMetal01...
+[2020.09.08-03.01.13:648][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_BlockShieldMetal01.WAV_BlockShieldMetal01 will be modified from 40 to 40.
+[2020.09.08-03.01.13:689][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 81304 while cooking SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_BlockShieldMetal01.WAV_BlockShieldMetal01.
+[2020.09.08-03.01.13:691][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave WAV_HitSword02...
+[2020.09.08-03.01.13:691][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_HitSword02.WAV_HitSword02 will be modified from 40 to 40.
+[2020.09.08-03.01.13:718][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 79712 while cooking SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_HitSword02.WAV_HitSword02.
+[2020.09.08-03.01.13:719][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave WAV_HitSword01...
+[2020.09.08-03.01.13:719][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_HitSword01.WAV_HitSword01 will be modified from 40 to 40.
+[2020.09.08-03.01.13:738][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 60560 while cooking SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_HitSword01.WAV_HitSword01.
+[2020.09.08-03.01.13:738][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave WAV_Punch01...
+[2020.09.08-03.01.13:738][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_Punch01.WAV_Punch01 will be modified from 40 to 40.
+[2020.09.08-03.01.13:755][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 15796 while cooking SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_Punch01.WAV_Punch01.
+[2020.09.08-03.01.13:756][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave WAV_BlockMetalMetal...
+[2020.09.08-03.01.13:756][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_BlockMetalMetal.WAV_BlockMetalMetal will be modified from 40 to 40.
+[2020.09.08-03.01.13:775][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 45596 while cooking SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_BlockMetalMetal.WAV_BlockMetalMetal.
+[2020.09.08-03.01.13:780][  0]LogMaterial: Display: Missing cached shader map for material M_Flare_Procedural_Noise_Tex_Glow, compiling. 
+[2020.09.08-03.01.13:857][  0]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2020.09.08-03.01.13:942][  0]LogSkeletalMesh: Building Skeletal Mesh SK_Mannequin-APose...
+[2020.09.08-03.01.14:048][  0]LogSkeletalMesh: Built Skeletal Mesh [0.11s] /Game/DynamicCombatSystem/Meshes/SK_Mannequin-APose.SK_Mannequin-APose
+[2020.09.08-03.01.14:085][  0]LogMaterial: Display: Missing cached shader map for material M_ChromaPlasma, compiling. 
+[2020.09.08-03.01.14:127][  0]LogMaterial: Display: Missing cached shader map for material M_TacticiaFlare, compiling. 
+[2020.09.08-03.01.14:159][  0]LogMaterial: Display: Missing cached shader map for material M_TacticiaAirglow, compiling. 
+[2020.09.08-03.01.14:190][  0]LogSkeletalMesh: Building Skeletal Mesh SK_SteelPants...
+[2020.09.08-03.01.14:197][  0]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/DynamicCombatSystem/Meshes/SK_SteelPants.SK_SteelPants
+[2020.09.08-03.01.14:201][  0]LogMaterial: Display: Missing cached shader map for material M_Add_Sprite_Master_DepthFade, compiling. 
+[2020.09.08-03.01.14:232][  0]LogMaterial: Display: Missing cached shader map for material M_Add_Sprite_SubUV_Master, compiling. 
+[2020.09.08-03.01.14:261][  0]LogStaticMesh: Building static mesh SM_FireBall...
+[2020.09.08-03.01.14:272][  0]LogStaticMesh: Built static mesh [0.01s] /Game/DynamicCombatSystem/VFX/Helpers/SM_FireBall.SM_FireBall
+[2020.09.08-03.01.14:276][  0]LogMaterial: Display: Missing cached shader map for material M_Add_Trail_2Sided_Pan_Master, compiling. 
+[2020.09.08-03.01.14:305][  0]LogMaterial: Display: Missing cached shader map for material M_Add_Trail_2Sided_Pan_Master, compiling. 
+[2020.09.08-03.01.14:332][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave WAV_FireballHit...
+[2020.09.08-03.01.14:333][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_FireballHit.WAV_FireballHit will be modified from 40 to 40.
+[2020.09.08-03.01.14:374][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 139084 while cooking SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_FireballHit.WAV_FireballHit.
+[2020.09.08-03.01.14:374][  0]LogStaticMesh: Building static mesh SM_CollisionSphere...
+[2020.09.08-03.01.14:378][  0]LogStaticMesh: Built static mesh [0.00s] /Game/DynamicCombatSystem/Meshes/SM_CollisionSphere.SM_CollisionSphere
+[2020.09.08-03.01.14:383][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/DynamicCombatSystem/Animations/Magic/MG_Fireball_03.MG_Fireball_03
+[2020.09.08-03.01.14:383][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/DynamicCombatSystem/Animations/Magic/MG_Fireball_02.MG_Fireball_02
+[2020.09.08-03.01.14:383][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave WAV_FireballCast...
+[2020.09.08-03.01.14:383][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_FireballCast.WAV_FireballCast will be modified from 40 to 40.
+[2020.09.08-03.01.14:407][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 88568 while cooking SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_FireballCast.WAV_FireballCast.
+[2020.09.08-03.01.14:411][  0]LogMaterial: Display: Missing cached shader map for material M_Add_Trail_2Sided_Pan_Emis_Master, compiling. 
+[2020.09.08-03.01.14:437][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave WAV_Drain...
+[2020.09.08-03.01.14:438][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_Drain.WAV_Drain will be modified from 40 to 40.
+[2020.09.08-03.01.14:562][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 552960 while cooking SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_Drain.WAV_Drain.
+[2020.09.08-03.01.14:570][  0]LogStaticMesh: Building static mesh SM_BlastWave...
+[2020.09.08-03.01.14:572][  0]LogStaticMesh: Built static mesh [0.00s] /Game/DynamicCombatSystem/VFX/Helpers/SM_BlastWave.SM_BlastWave
+[2020.09.08-03.01.14:575][  0]LogMaterial: Display: Missing cached shader map for material M_Add_Sprite_Master, compiling. 
+[2020.09.08-03.01.14:609][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave WAV_Buff...
+[2020.09.08-03.01.14:609][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_Buff.WAV_Buff will be modified from 40 to 40.
+[2020.09.08-03.01.14:713][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 441000 while cooking SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_Buff.WAV_Buff.
+[2020.09.08-03.01.15:529][  0]LogTexture: Display: Building textures: T_Dark_Leather2_desat (AutoDXT, 2048X2048)
+[2020.09.08-03.01.21:774][  0]LogMaterial: Display: Missing cached shader map for material M_SummonedSword, compiling. 
+[2020.09.08-03.01.22:102][  0]LogStaticMesh: Building static mesh SM_SteelSword...
+[2020.09.08-03.01.22:299][  0]LogStaticMesh: Built static mesh [0.20s] /Game/DynamicCombatSystem/Meshes/SM_SteelSword.SM_SteelSword
+[2020.09.08-03.01.23:559][  0]LogTexture: Display: Building textures: T_hardmetal2_D (AutoDXT, 2048X2048)
+[2020.09.08-03.01.33:677][  0]LogTexture: Display: Building textures: T_Sparrow_Head_Arrow_Colo2 (AutoDXT, 4096X4096)
+[2020.09.08-03.01.42:366][  0]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1141
+[2020.09.08-03.01.42:366][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1131
+[2020.09.08-03.01.42:366][  0]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1121
+[2020.09.08-03.01.42:397][  0]LogMaterial: Display: Missing cached shader map for material M_SummonedBow, compiling. 
+[2020.09.08-03.01.42:634][  0]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1111
+[2020.09.08-03.01.42:634][  0]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1101
+[2020.09.08-03.01.42:634][  0]LogMaterial: Display: Missing cached shader map for material M_SummonedArrow, compiling. 
+[2020.09.08-03.01.42:921][  0]LogMaterial: Display: Missing cached shader map for material M_SummonedQuiver, compiling. 
+[2020.09.08-03.01.42:986][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave WAV_SummonItem...
+[2020.09.08-03.01.42:987][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_SummonItem.WAV_SummonItem will be modified from 40 to 40.
+[2020.09.08-03.01.43:125][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 396592 while cooking SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_SummonItem.WAV_SummonItem.
+[2020.09.08-03.01.43:138][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/DynamicCombatSystem/Animations/Magic/MG_Buff.MG_Buff
+[2020.09.08-03.01.43:138][  0]LogMaterial: Display: Missing cached shader map for material M_ExplosiveArrow, compiling. 
+[2020.09.08-03.01.43:423][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/DynamicCombatSystem/Animations/Magic/MG_BeamAttack.MG_BeamAttack
+[2020.09.08-03.01.43:423][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/DynamicCombatSystem/Animations/Magic/MG_Fireball_01.MG_Fireball_01
+[2020.09.08-03.01.43:423][  0]LogStaticMesh: Building static mesh SM_ExploSpline_02...
+[2020.09.08-03.01.43:425][  0]LogStaticMesh: Built static mesh [0.00s] /Game/DynamicCombatSystem/VFX/Helpers/SM_ExploSpline_02.SM_ExploSpline_02
+[2020.09.08-03.01.43:432][  0]LogMaterial: Display: Missing cached shader map for material M_SplineThickenSmoke_Trails_Master, compiling. 
+[2020.09.08-03.01.43:587][  0]LogMaterial: Display: Missing cached shader map for material M_Fireball_Directional_Lit_Master, compiling. 
+[2020.09.08-03.01.43:748][  0]LogMaterial: Display: Missing cached shader map for material M_Fireball_Directional_Lit_Master_2, compiling. 
+[2020.09.08-03.01.43:954][  0]LogMaterial: Display: Missing cached shader map for material M_Explosion_RockChunks, compiling. 
+[2020.09.08-03.01.44:152][  0]LogMaterial: Display: Missing cached shader map for material M_Debris, compiling. 
+[2020.09.08-03.01.44:326][  0]LogMaterial: Display: Missing cached shader map for material M_VortexGrenade_SmokeSpears, compiling. 
+[2020.09.08-03.01.44:366][  0]LogMaterial: Display: Missing cached shader map for material M_Tri_Test, compiling. 
+[2020.09.08-03.01.44:491][  0]LogMaterial: Display: Missing cached shader map for material M_Spline_Preview, compiling. 
+[2020.09.08-03.01.44:674][  0]LogMaterial: Display: Missing cached shader map for material M_Hotdog_Spark_VLerp_DOF_Rand_Master, compiling. 
+[2020.09.08-03.01.44:778][  0]LogMaterial: Display: Missing cached shader map for material M_ElvenBow, compiling. 
+[2020.09.08-03.01.45:005][  0]LogSkeletalMesh: Building Skeletal Mesh SK_ElvenBow...
+[2020.09.08-03.01.45:038][  0]LogSkeletalMesh: Built Skeletal Mesh [0.03s] /Game/DynamicCombatSystem/Meshes/SK_ElvenBow.SK_ElvenBow
+[2020.09.08-03.01.46:376][  0]LogTexture: Display: Building textures: T_Light_Leather2 (AutoDXT, 2048X2048)
+[2020.09.08-03.01.51:251][  0]LogShaderCompilers: Display: Worker (9/9): shaders left to compile 2802
+[2020.09.08-03.01.51:260][  0]LogMaterial: Display: Missing cached shader map for material M_GreatSword, compiling. 
+[2020.09.08-03.01.51:618][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2792
+[2020.09.08-03.01.51:619][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2916
+[2020.09.08-03.01.51:619][  0]LogStaticMesh: Building static mesh SM_GreatSword...
+[2020.09.08-03.01.51:754][  0]LogStaticMesh: Built static mesh [0.14s] /Game/DynamicCombatSystem/Meshes/SM_GreatSword.SM_GreatSword
+[2020.09.08-03.01.51:783][  0]LogMaterial: Display: Missing cached shader map for material M_Potion, compiling. 
+[2020.09.08-03.01.51:887][  0]LogStaticMesh: Building static mesh SM_Potion...
+[2020.09.08-03.01.51:965][  0]LogStaticMesh: Built static mesh [0.08s] /Game/DynamicCombatSystem/Meshes/SM_Potion.SM_Potion
+[2020.09.08-03.01.52:032][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave WAV_PotionHeal...
+[2020.09.08-03.01.52:033][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_PotionHeal.WAV_PotionHeal will be modified from 40 to 40.
+[2020.09.08-03.01.52:201][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 441000 while cooking SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_PotionHeal.WAV_PotionHeal.
+[2020.09.08-03.01.52:336][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/DynamicCombatSystem/Animations/Common/DrinkPotion.DrinkPotion
+[2020.09.08-03.01.52:336][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/DynamicCombatSystem/Animations/ElvenBow/ElvenBow_Pulled.ElvenBow_Pulled
+[2020.09.08-03.01.52:336][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/DynamicCombatSystem/Animations/ElvenBow/ElvenBow_Idle.ElvenBow_Idle
+[2020.09.08-03.01.52:336][  0]LogStaticMesh: Building static mesh SM_SteelShield...
+[2020.09.08-03.01.52:453][  0]LogStaticMesh: Built static mesh [0.12s] /Game/DynamicCombatSystem/Meshes/SM_SteelShield.SM_SteelShield
+[2020.09.08-03.01.52:479][  0]LogMaterial: Display: Missing cached shader map for material M_SteelShieldSword, compiling. 
+[2020.09.08-03.01.52:607][  0]LogStaticMesh: Building static mesh SM_FengMao_Magic_Blade...
+[2020.09.08-03.01.52:615][  0]LogStaticMesh: Built static mesh [0.01s] /Game/DynamicCombatSystem/VFX/Helpers/SM_FengMao_Magic_Blade.SM_FengMao_Magic_Blade
+[2020.09.08-03.01.52:616][  0]LogStaticMesh: Building static mesh SM_FengMao_ground_destroy...
+[2020.09.08-03.01.52:976][  0]LogStaticMesh: Built static mesh [0.36s] /Game/DynamicCombatSystem/VFX/Helpers/SM_FengMao_ground_destroy.SM_FengMao_ground_destroy
+[2020.09.08-03.01.53:015][  0]LogStaticMesh: Building static mesh SM_FengMao_BladeFX...
+[2020.09.08-03.01.53:328][  0]LogStaticMesh: Built static mesh [0.31s] /Game/DynamicCombatSystem/VFX/Helpers/SM_FengMao_BladeFX.SM_FengMao_BladeFX
+[2020.09.08-03.01.53:345][  0]LogMaterial: Display: Missing cached shader map for material M_ImposterRock_Masked_MASTER, compiling. 
+[2020.09.08-03.01.53:407][  0]LogMaterial: Display: Missing cached shader map for material M_DirtTest, compiling. 
+[2020.09.08-03.01.53:469][  0]LogMaterial: Display: Missing cached shader map for material M_Cone_Flare_Master, compiling. 
+[2020.09.08-03.01.53:485][  0]LogMaterial: Display: Missing cached shader map for material M_Lensflare_TB_Soft, compiling. 
+[2020.09.08-03.01.53:500][  0]LogMaterial: Display: Missing cached shader map for material M_FluidSmoke_03, compiling. 
+[2020.09.08-03.01.53:549][  0]LogMaterial: Display: Missing cached shader map for material M_FengMao_MagicBlade, compiling. 
+[2020.09.08-03.01.53:563][  0]LogMaterial: Display: Missing cached shader map for material M_FengMao_BladeFX, compiling. 
+[2020.09.08-03.01.53:628][  0]LogMaterial: Display: Missing cached shader map for material M_dust_burst_01, compiling. 
+[2020.09.08-03.01.53:683][  0]LogMaterial: Display: Missing cached shader map for material M_Debris_Rock_Fade, compiling. 
+[2020.09.08-03.01.53:733][  0]LogSkeletalMesh: Building Skeletal Mesh SK_SteelGloves...
+[2020.09.08-03.01.53:749][  0]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/DynamicCombatSystem/Meshes/SK_SteelGloves.SK_SteelGloves
+[2020.09.08-03.01.53:751][  0]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2020.09.08-03.01.53:830][  0]LogMaterial: Display: Missing cached shader map for material M_MagicWand, compiling. 
+[2020.09.08-03.01.53:928][  0]LogStaticMesh: Building static mesh SM_MagicWand...
+[2020.09.08-03.01.53:982][  0]LogStaticMesh: Built static mesh [0.05s] /Game/DynamicCombatSystem/Meshes/SM_MagicWand.SM_MagicWand
+[2020.09.08-03.01.53:993][  0]LogMaterial: Display: Missing cached shader map for material M_Hotdog_Spark_VLerp_CameraStretch, compiling. 
+[2020.09.08-03.01.54:010][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave WAV_Teleport...
+[2020.09.08-03.01.54:010][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_Teleport.WAV_Teleport will be modified from 40 to 40.
+[2020.09.08-03.01.54:046][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 186956 while cooking SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_Teleport.WAV_Teleport.
+[2020.09.08-03.01.54:051][  0]LogStaticMesh: Building static mesh SM_TornadoSpiral...
+[2020.09.08-03.01.54:058][  0]LogStaticMesh: Built static mesh [0.01s] /Game/DynamicCombatSystem/VFX/Helpers/SM_TornadoSpiral.SM_TornadoSpiral
+[2020.09.08-03.01.54:070][  0]LogMaterial: Display: Missing cached shader map for material M_Trans_Sprite_Master_Surface, compiling. 
+[2020.09.08-03.01.54:152][  0]LogMaterial: Display: Missing cached shader map for material M_Tornado, compiling. 
+[2020.09.08-03.01.54:184][  0]LogMaterial: Display: Missing cached shader map for material M_IceChunksBase, compiling. 
+[2020.09.08-03.01.54:208][  0]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 4098
+[2020.09.08-03.01.54:208][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave WAV_Tornado...
+[2020.09.08-03.01.54:209][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_Tornado.WAV_Tornado will be modified from 40 to 40.
+[2020.09.08-03.01.54:287][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 476308 while cooking SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_Tornado.WAV_Tornado.
+[2020.09.08-03.01.54:289][  0]LogMaterial: Display: Missing cached shader map for material M_Beam, compiling. 
+[2020.09.08-03.01.54:302][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave WAV_LightingSparks...
+[2020.09.08-03.01.54:303][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_LightingSparks.WAV_LightingSparks will be modified from 40 to 40.
+[2020.09.08-03.01.54:379][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 455800 while cooking SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_LightingSparks.WAV_LightingSparks.
+[2020.09.08-03.01.54:404][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/DynamicCombatSystem/Animations/Magic/MG_SettingTrap.MG_SettingTrap
+[2020.09.08-03.01.54:404][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/DynamicCombatSystem/Animations/Magic/MG_InfernoAttack.MG_InfernoAttack
+[2020.09.08-03.01.54:404][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/DynamicCombatSystem/Animations/Magic/MG_Teleport.MG_Teleport
+[2020.09.08-03.01.54:404][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/DynamicCombatSystem/Animations/Magic/MG_Shockwave.MG_Shockwave
+[2020.09.08-03.01.54:404][  0]LogMaterial: Display: Missing cached shader map for material M_Buff_Black_Creature_01, compiling. 
+[2020.09.08-03.01.54:514][  0]LogSkeletalMesh: Building Skeletal Mesh SK_SummonedMinion...
+[2020.09.08-03.01.54:540][  0]LogSkeletalMesh: Built Skeletal Mesh [0.03s] /Game/DynamicCombatSystem/Meshes/SK_SummonedMinion.SK_SummonedMinion
+[2020.09.08-03.01.54:549][  0]LogStaticMesh: Building static mesh SM_DemoRoomLTrim...
+[2020.09.08-03.01.54:549][  0]LogStaticMesh: Built static mesh [0.00s] /Game/DynamicCombatSystem/DemoRoom/Meshes/SM_DemoRoomLTrim.SM_DemoRoomLTrim
+[2020.09.08-03.01.54:563][  0]LogStaticMesh: Building static mesh SM_DemoRoomL...
+[2020.09.08-03.01.54:572][  0]LogStaticMesh: Built static mesh [0.01s] /Game/DynamicCombatSystem/DemoRoom/Meshes/SM_DemoRoomL.SM_DemoRoomL
+[2020.09.08-03.01.54:673][  0]LogStaticMesh: Building static mesh SM_DemoRoomClamp2...
+[2020.09.08-03.01.54:746][  0]LogStaticMesh: Built static mesh [0.07s] /Game/DynamicCombatSystem/DemoRoom/Meshes/SM_DemoRoomClamp2.SM_DemoRoomClamp2
+[2020.09.08-03.01.54:766][  0]LogMaterial: Display: Missing cached shader map for material M_LightTube, compiling. 
+[2020.09.08-03.01.54:865][  0]LogStaticMesh: Building static mesh SM_DemoRoomClamp...
+[2020.09.08-03.01.54:936][  0]LogStaticMesh: Built static mesh [0.07s] /Game/DynamicCombatSystem/DemoRoom/Meshes/SM_DemoRoomClamp.SM_DemoRoomClamp
+[2020.09.08-03.01.54:956][  0]LogStaticMesh: Building static mesh SM_DemoRoomBackWall2...
+[2020.09.08-03.01.54:957][  0]LogStaticMesh: Built static mesh [0.00s] /Game/DynamicCombatSystem/DemoRoom/Meshes/SM_DemoRoomBackWall2.SM_DemoRoomBackWall2
+[2020.09.08-03.01.54:965][  0]LogStaticMesh: Building static mesh SM_DemoRoomBackWall...
+[2020.09.08-03.01.54:966][  0]LogStaticMesh: Built static mesh [0.00s] /Game/DynamicCombatSystem/DemoRoom/Meshes/SM_DemoRoomBackWall.SM_DemoRoomBackWall
+[2020.09.08-03.01.55:000][  0]LogStaticMesh: Building static mesh SM_DemoDivider_2...
+[2020.09.08-03.01.55:024][  0]LogStaticMesh: Built static mesh [0.02s] /Game/DynamicCombatSystem/DemoRoom/Meshes/SM_DemoDivider_2.SM_DemoDivider_2
+[2020.09.08-03.01.55:061][  0]LogStaticMesh: Building static mesh SM_DemoDivider_1...
+[2020.09.08-03.01.55:084][  0]LogStaticMesh: Built static mesh [0.02s] /Game/DynamicCombatSystem/DemoRoom/Meshes/SM_DemoDivider_1.SM_DemoDivider_1
+[2020.09.08-03.01.55:102][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave WAV_Roll...
+[2020.09.08-03.01.55:102][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_Roll.WAV_Roll will be modified from 40 to 40.
+[2020.09.08-03.01.55:132][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 64128 while cooking SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_Roll.WAV_Roll.
+[2020.09.08-03.01.55:134][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave WAV_BowShoot...
+[2020.09.08-03.01.55:134][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_BowShoot.WAV_BowShoot will be modified from 40 to 40.
+[2020.09.08-03.01.55:155][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 53752 while cooking SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_BowShoot.WAV_BowShoot.
+[2020.09.08-03.01.55:165][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave WAV_SwingSmall02...
+[2020.09.08-03.01.55:165][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_SwingSmall02.WAV_SwingSmall02 will be modified from 40 to 40.
+[2020.09.08-03.01.55:180][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 11716 while cooking SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_SwingSmall02.WAV_SwingSmall02.
+[2020.09.08-03.01.55:180][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave WAV_SwingSmall01...
+[2020.09.08-03.01.55:180][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_SwingSmall01.WAV_SwingSmall01 will be modified from 40 to 40.
+[2020.09.08-03.01.55:203][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 12744 while cooking SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_SwingSmall01.WAV_SwingSmall01.
+[2020.09.08-03.01.55:205][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave WAV_SwingLarge02...
+[2020.09.08-03.01.55:205][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_SwingLarge02.WAV_SwingLarge02 will be modified from 40 to 40.
+[2020.09.08-03.01.55:219][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 25880 while cooking SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_SwingLarge02.WAV_SwingLarge02.
+[2020.09.08-03.01.55:219][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave WAV_SwingLarge01...
+[2020.09.08-03.01.55:220][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_SwingLarge01.WAV_SwingLarge01 will be modified from 40 to 40.
+[2020.09.08-03.01.55:239][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 27292 while cooking SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_SwingLarge01.WAV_SwingLarge01.
+[2020.09.08-03.01.55:240][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave WAV_UnsheathSword...
+[2020.09.08-03.01.55:240][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_UnsheathSword.WAV_UnsheathSword will be modified from 40 to 40.
+[2020.09.08-03.01.55:271][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 90680 while cooking SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_UnsheathSword.WAV_UnsheathSword.
+[2020.09.08-03.01.55:302][  0]LogStaticMesh: Building static mesh SM_DemoRoomU...
+[2020.09.08-03.01.55:320][  0]LogStaticMesh: Built static mesh [0.02s] /Game/DynamicCombatSystem/DemoRoom/Meshes/SM_DemoRoomU.SM_DemoRoomU
+[2020.09.08-03.01.55:410][  0]LogStaticMesh: Building static mesh SM_DemoRoomTrimAdd...
+[2020.09.08-03.01.55:481][  0]LogStaticMesh: Built static mesh [0.07s] /Game/DynamicCombatSystem/DemoRoom/Meshes/SM_DemoRoomTrimAdd.SM_DemoRoomTrimAdd
+[2020.09.08-03.01.55:638][  0]LogStaticMesh: Building static mesh SM_DemoRoomTrim2...
+[2020.09.08-03.01.55:756][  0]LogStaticMesh: Built static mesh [0.12s] /Game/DynamicCombatSystem/DemoRoom/Meshes/SM_DemoRoomTrim2.SM_DemoRoomTrim2
+[2020.09.08-03.01.55:934][  0]LogDerivedDataCache: C:/Users/alutz/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/alutz/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/5/8/NAVCOLLISION_2EE6412E1E884D1AAA7F79FF760363BC_NAVCOLLISION_X_44B1DCCB41BAD643B__CF74163DE98422A3EE2F626E0EB6913A526C3B1A.udd.
+[2020.09.08-03.01.55:934][  0]LogStaticMesh: Building static mesh SM_DemoRoomTrim...
+[2020.09.08-03.01.56:047][  0]LogStaticMesh: Built static mesh [0.11s] /Game/DynamicCombatSystem/DemoRoom/Meshes/SM_DemoRoomTrim.SM_DemoRoomTrim
+[2020.09.08-03.01.56:148][  0]LogSkeletalMesh: Building Skeletal Mesh SK_SteelBreastplate...
+[2020.09.08-03.01.56:152][  0]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/DynamicCombatSystem/Meshes/SK_SteelBreastplate.SK_SteelBreastplate
+[2020.09.08-03.01.56:153][  0]LogSkeletalMesh: Building Skeletal Mesh SK_SteelBoots...
+[2020.09.08-03.01.56:162][  0]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/DynamicCombatSystem/Meshes/SK_SteelBoots.SK_SteelBoots
+[2020.09.08-03.01.56:165][  0]LogMaterial: Display: Missing cached shader map for material M_DemoRoomTiles, compiling. 
+[2020.09.08-03.01.56:211][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave WAV_MinionSpawn...
+[2020.09.08-03.01.56:211][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_MinionSpawn.WAV_MinionSpawn will be modified from 40 to 40.
+[2020.09.08-03.01.56:269][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 317520 while cooking SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_MinionSpawn.WAV_MinionSpawn.
+[2020.09.08-03.01.56:272][  0]LogMaterial: Display: Missing cached shader map for material M_DemoWallPattern, compiling. 
+[2020.09.08-03.01.56:302][  0]LogMaterial: Display: Missing cached shader map for material M_EyeRefractive, compiling. 
+[2020.09.08-03.01.56:319][  0]LogMaterial: Warning: D:\OneDrive - University of Central Florida\AlyssaUndergrad\UE4assets\Projects\DynamicCombatSystems\Content\DynamicCombatSystem\Meshes\Materials\M_EyeRefractive.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.09.08-03.01.56:319][  0]LogMaterial: Display: 	(Node TextureSampleParameterCube) ParamCube> Found NULL, requires TextureCube
+[2020.09.08-03.01.56:319][  0]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property EmissiveColor
+[2020.09.08-03.01.56:324][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave WAV_GroundExplosion02...
+[2020.09.08-03.01.56:325][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_GroundExplosion02.WAV_GroundExplosion02 will be modified from 40 to 40.
+[2020.09.08-03.01.56:394][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 352776 while cooking SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_GroundExplosion02.WAV_GroundExplosion02.
+[2020.09.08-03.01.56:396][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave WAV_GroundExplosion01...
+[2020.09.08-03.01.56:397][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_GroundExplosion01.WAV_GroundExplosion01 will be modified from 40 to 40.
+[2020.09.08-03.01.56:472][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 352820 while cooking SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_GroundExplosion01.WAV_GroundExplosion01.
+[2020.09.08-03.01.56:472][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave WAV_SetTrap02...
+[2020.09.08-03.01.56:473][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_SetTrap02.WAV_SetTrap02 will be modified from 40 to 40.
+[2020.09.08-03.01.56:541][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 352780 while cooking SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_SetTrap02.WAV_SetTrap02.
+[2020.09.08-03.01.56:543][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave WAV_SetTrap01...
+[2020.09.08-03.01.56:544][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_SetTrap01.WAV_SetTrap01 will be modified from 40 to 40.
+[2020.09.08-03.01.56:612][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 352716 while cooking SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_SetTrap01.WAV_SetTrap01.
+[2020.09.08-03.01.56:612][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave WAV_MinionAttack02...
+[2020.09.08-03.01.56:613][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_MinionAttack02.WAV_MinionAttack02 will be modified from 40 to 40.
+[2020.09.08-03.01.56:658][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 195776 while cooking SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_MinionAttack02.WAV_MinionAttack02.
+[2020.09.08-03.01.56:659][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave WAV_MinionAttack01...
+[2020.09.08-03.01.56:659][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_MinionAttack01.WAV_MinionAttack01 will be modified from 40 to 40.
+[2020.09.08-03.01.56:719][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 211236 while cooking SoundWave /Game/DynamicCombatSystem/SFX/WAV/WAV_MinionAttack01.WAV_MinionAttack01.
+[2020.09.08-03.01.56:752][  0]LogAIModule: Creating AISystem for world DemoLevel
+[2020.09.08-03.01.56:752][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EB9F4E3E00), frame # 0
+[2020.09.08-03.01.56:752][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EB9F506980), frame # 0
+[2020.09.08-03.01.56:850][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.08-03.01.59:051][  0]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4366
+[2020.09.08-03.01.59:090][  0]LogUObjectHash: Compacting FUObjectHashTables data took   6.44ms
+[2020.09.08-03.01.59:097][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.08-03.01.59:097][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.173ms to complete.
+[2020.09.08-03.01.59:098][  0]LogFileHelpers: Loading map 'DemoLevel' took 137.972
+[2020.09.08-03.01.59:100][  0]LogUnrealEdMisc: Total Editor Startup Time, took 151.135
+[2020.09.08-03.01.59:221][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.08-03.01.59:233][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 4356
+[2020.09.08-03.01.59:233][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.08-03.01.59:245][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.08-03.01.59:257][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.08-03.01.59:266][  0]LogCollectionManager: Loaded 0 collections in 0.002323 seconds
+[2020.09.08-03.01.59:291][  0]LogFileCache: Scanning file cache for directory 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Saved/Collections/' took 0.00s
+[2020.09.08-03.01.59:291][  0]LogFileCache: Scanning file cache for directory 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/Developers/alutz/Collections/' took 0.00s
+[2020.09.08-03.01.59:291][  0]LogFileCache: Scanning file cache for directory 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/Collections/' took 0.00s
+[2020.09.08-03.01.59:291][  0]LogContentBrowser: Native class hierarchy populated in 0.0165 seconds. Added 3427 classes and 821 folders.
+[2020.09.08-03.01.59:301][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.09.08-03.01.59:380][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.09.08-03.01.59:381][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2020.09.08-03.01.59:438][  0]LogSlate: Took 0.000240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.09.08-03.01.59:440][  0]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.09.08-03.01.59:448][  0]LogSlate: Took 0.000323 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.09.08-03.01.59:571][  0]LogRenderer: Reallocating scene render targets to support 1176x564 Format 10 NumSamples 1 (Frame:1).
+[2020.09.08-03.02.00:092][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2020.09.08-03.02.00:092][  0]LogLoad: (Engine Initialization) Total time: 152.13 seconds
+[2020.09.08-03.02.00:092][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.09.08-03.02.00:169][  0]LogFileManager: Warning: MoveFile was unable to move 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Intermediate/ReimportCache/3688439234.bin.tmp' to 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Intermediate/ReimportCache/3688439234.bin' (Error Code 32), retrying in .5s...
+[2020.09.08-03.02.00:671][  0]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4346
+[2020.09.08-03.02.00:671][  0]LogFileManager: Warning: MoveFile was unable to move 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Intermediate/ReimportCache/3688439234.bin.tmp' to 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Intermediate/ReimportCache/3688439234.bin' (Error Code 2), retrying in .5s...
+[2020.09.08-03.02.01:172][  0]LogFileManager: Warning: MoveFile was unable to move 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Intermediate/ReimportCache/3688439234.bin.tmp' to 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Intermediate/ReimportCache/3688439234.bin' (Error Code 2), retrying in .5s...
+[2020.09.08-03.02.01:673][  0]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4336
+[2020.09.08-03.02.01:673][  0]LogFileManager: Warning: MoveFile was unable to move 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Intermediate/ReimportCache/3688439234.bin.tmp' to 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Intermediate/ReimportCache/3688439234.bin' (Error Code 2), retrying in .5s...
+[2020.09.08-03.02.02:174][  0]LogFileManager: Warning: MoveFile was unable to move 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Intermediate/ReimportCache/3688439234.bin.tmp' to 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Intermediate/ReimportCache/3688439234.bin' (Error Code 2), retrying in .5s...
+[2020.09.08-03.02.02:675][  0]LogShaderCompilers: Display: Worker (9/9): shaders left to compile 4326
+[2020.09.08-03.02.02:675][  0]LogFileManager: Warning: MoveFile was unable to move 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Intermediate/ReimportCache/3688439234.bin.tmp' to 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Intermediate/ReimportCache/3688439234.bin' (Error Code 2), retrying in .5s...
+[2020.09.08-03.02.03:175][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4316
+[2020.09.08-03.02.03:175][  0]LogFileManager: Warning: MoveFile was unable to move 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Intermediate/ReimportCache/3688439234.bin.tmp' to 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Intermediate/ReimportCache/3688439234.bin' (Error Code 2), retrying in .5s...
+[2020.09.08-03.02.03:676][  0]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4306
+[2020.09.08-03.02.03:676][  0]LogFileManager: Warning: MoveFile was unable to move 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Intermediate/ReimportCache/3688439234.bin.tmp' to 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Intermediate/ReimportCache/3688439234.bin' (Error Code 2), retrying in .5s...
+[2020.09.08-03.02.04:178][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 4296
+[2020.09.08-03.02.04:178][  0]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 4286
+[2020.09.08-03.02.04:178][  0]LogFileManager: Warning: MoveFile was unable to move 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Intermediate/ReimportCache/3688439234.bin.tmp' to 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Intermediate/ReimportCache/3688439234.bin' (Error Code 2), retrying in .5s...
+[2020.09.08-03.02.04:678][  0]LogFileManager: Warning: MoveFile was unable to move 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Intermediate/ReimportCache/3688439234.bin.tmp' to 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Intermediate/ReimportCache/3688439234.bin' (Error Code 2), retrying in .5s...
+[2020.09.08-03.02.05:178][  0]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4276
+[2020.09.08-03.02.05:178][  0]LogFileManager: Error: Error moving file 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Intermediate/ReimportCache/3688439234.bin.tmp' to 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Intermediate/ReimportCache/3688439234.bin'.
+[2020.09.08-03.02.05:179][  0]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.09.08-03.02.05:867][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 4266
+[2020.09.08-03.02.05:867][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.687 s
+[2020.09.08-03.02.05:867][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2020.09.08-03.02.05:867][  0]LogOutputDevice: Error: 
+[2020.09.08-03.02.05:867][  0]LogOutputDevice: Error: Ensure condition failed: bMoved [File:D:/Build/++UE4+Licensee/Sync/Engine/Source/Developer/DirectoryWatcher/Private/FileCache.cpp] [Line: 542]
+[2020.09.08-03.02.05:867][  0]LogOutputDevice: Error: Unable to move file-cache for 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Content/' from 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Intermediate/ReimportCache/3688439234.bin.tmp' to 'D:/OneDrive - University of Central Florida/AlyssaUndergrad/UE4assets/Projects/DynamicCombatSystems/Intermediate/ReimportCache/3688439234.bin' (free disk space: 0)
+[2020.09.08-03.02.05:867][  0]LogOutputDevice: Error: Stack: 
+[2020.09.08-03.02.05:867][  0]LogOutputDevice: Error: [Callstack] 0x00007ffd7138bf55 UE4Editor-DirectoryWatcher.dll!UnknownFunction []
+[2020.09.08-03.02.05:867][  0]LogOutputDevice: Error: [Callstack] 0x00007ffd71383509 UE4Editor-DirectoryWatcher.dll!UnknownFunction []
+[2020.09.08-03.02.05:867][  0]LogOutputDevice: Error: [Callstack] 0x00007ffd4e403abe UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.09.08-03.02.05:867][  0]LogOutputDevice: Error: [Callstack] 0x00007ffd4e3d5b92 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.09.08-03.02.05:867][  0]LogOutputDevice: Error: [Callstack] 0x00007ffd4e3a2697 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.09.08-03.02.05:867][  0]LogOutputDevice: Error: [Callstack] 0x00007ffd4e4038c1 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.09.08-03.02.05:867][  0]LogOutputDevice: Error: [Callstack] 0x00007ffd4e350689 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.09.08-03.02.05:867][  0]LogOutputDevice: Error: [Callstack] 0x00007ffd4e72a14e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.09.08-03.02.05:867][  0]LogOutputDevice: Error: [Callstack] 0x00007ffd4f001d06 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.09.08-03.02.05:867][  0]LogOutputDevice: Error: [Callstack] 0x00007ff65d9a7800 UE4Editor.exe!UnknownFunction []
+[2020.09.08-03.02.05:867][  0]LogOutputDevice: Error: [Callstack] 0x00007ff65d9bba7c UE4Editor.exe!UnknownFunction []
+[2020.09.08-03.02.05:867][  0]LogOutputDevice: Error: [Callstack] 0x00007ff65d9bbb5a UE4Editor.exe!UnknownFunction []
+[2020.09.08-03.02.05:867][  0]LogOutputDevice: Error: [Callstack] 0x00007ff65d9ce31d UE4Editor.exe!UnknownFunction []
+[2020.09.08-03.02.05:867][  0]LogOutputDevice: Error: [Callstack] 0x00007ff65d9d145a UE4Editor.exe!UnknownFunction []
+[2020.09.08-03.02.05:867][  0]LogOutputDevice: Error: [Callstack] 0x00007ffdc5567bd4 KERNEL32.DLL!UnknownFunction []
+[2020.09.08-03.02.05:867][  0]LogOutputDevice: Error: [Callstack] 0x00007ffdc638ce51 ntdll.dll!UnknownFunction []
+[2020.09.08-03.02.05:867][  0]LogOutputDevice: Error: 
